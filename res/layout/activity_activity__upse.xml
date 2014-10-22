@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/xxx"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="UPSE..!"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="Mision"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_dropdownitem_text_padding_left"
+        android:paddingBottom="5dp"
+        android:text="Formar profesionales competentes, comprometidos con la sociedad y el ambiente, en base a una alta calidad académica, a la investigación, la adopción y generación de conocimientos científicos y tecnológicos, respetando y promoviendo nuestra identidad cultural."
+        android:textColor="#ffffff"
+        android:textSize="13dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:text="Vision"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/abc_dropdownitem_text_padding_left"
+        android:paddingBottom="5dp"
+        android:text="Ser la universidad referente en la zona marino‐costera ecuatoriana, por sus competencias académicas de investigación científica y tecnológica y con espíritu innovador y crítico, así como por la responsabilidad social de sus autoridades, profesores, investigadores, estudiantes, graduados, servidores y trabajadores."
+        android:textColor="#ffffff"
+        android:textSize="13dp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp" >
+
+        <ImageView
+            android:id="@+id/imgFacebook"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:onClick="onClickBtnFacebook"
+            android:paddingRight="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/facebook" />
+
+        <ImageView
+            android:id="@+id/imgTwitter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:onClick="onClickTwitter"
+            android:paddingLeft="50dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/botontwittertresd" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
